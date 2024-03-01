@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+main{
+background-color: rgb(113, 113, 113);
+width: 100%;
+height: 130px;
+line-height: 50px;
+padding: 5px 5px;
+padding-right: 10px;
+
+}
+
+
+
+h1{
+    color: #fff;
+    font-family: helvetica;
+    font-size: 50px;
+}
+
+h2{
+    color: #fff;
+}
+
+.head{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+.marca{
+    display: flex;
+    margin: 2%;
+    
+}
+
+.icone{
+    margin: 2%;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+a{
+    padding: 10px;
+    margin: 2px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+body{
+    background-color: black;
+}
+
+li {
+    list-style-type: none;
+   
+}
+ 
+li :hover{
+    opacity: 70%;
+}
+
+
+.secao{
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    padding-top: 0.8%;
+    padding-bottom: 2%;
+}
+
+.fotos,
+.retrato,
+.gatos,
+.pandemia,
+.fine-art{
+   display: flex;
+   justify-content: center;
+   padding: 10px 10px;   
+   height: 20%; 
+   margin: 2% ;
+   justify-content: space-between;
+   padding-top: 2%;
+   border: 5px solid #fff;
+   border-right: 5px solid #fff;
+ padding-bottom: 2%;
+ padding-left: 2%;
+ padding-right: 2%;
+ cursor: pointer;
+   
+}
+
+
+    .fotos :hover{
+       
+        opacity: 75%;
+    }
+    .retrato :hover{
+       
+        opacity: 75%;
+    }
+    .gatos :hover{
+     
+        opacity: 75%;
+    }
+    .pandemia :hover{
+     
+        opacity: 75%;
+    }
+    .fine-art :hover{
+       
+        opacity: 75%;
+    }
+
+    .morro{
+        border: 2px solid #fff;
+    }
+    .arvore{
+        border: 2px solid #fff;
+    }
+    .trailer{
+        border: 2px solid #fff;
+    }
+    .talita{
+        border: 2px solid #fff;
+    }
+    .bruno{
+        border: 2px solid #fff;
+    }
+    .andrey{
+        border: 2px solid #fff;
+    }
+    .ravi{
+        border: 2px solid #fff;
+    }
+    .vivi{
+        border: 2px solid #fff;
+    }
+    .katrina{
+        border: 2px solid #fff;
+    }
+    .stanley{
+        border: 2px solid #fff;
+    }
+    .chico{
+        border: 2px solid #fff;
+    }
+    .amanda{
+        border: 2px solid #fff;
+    }
+    .aviao{
+        border: 2px solid #fff;
+    }
+    .faca{
+        border: 2px solid #fff;
+    }
+    .boxe{
+        border: 2px solid #fff;
+    }
+
+    
+
+   
+
+    .rodape{
+        background-color: rgb(113, 113, 113);
+        width: 100%;
+        height: 130px;
+        line-height: 50px;
+        padding: 5px 5px;
+        align-items: center;
+    }
+
+    .copy{
+        font-size: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    i{
+       margin-left: -2px;
+       padding: 2px;
+    }
+
+    ul li i{
+        padding: 5px;
+    }
+     
+    .imagem-grande{
+        display: flex;
+        justify-content: center;
+       
+    }
+    .descricao{
+        color: #fff;
+    }
+
+    p{
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    #morro{
+        border: 5px solid #fff;
+        margin-bottom: 20px;
+    }
+    #arvore{
+        border: 5px solid #fff;
+        margin-bottom: 20px;
+    }
+    #trailer{
+        border: 5px solid #fff;
+        margin-bottom: 20px;
+    }
+    #talita{
+        border: 5px solid #fff;
+        margin-bottom: 20px;
+    }
+    #bruno{
+        border: 5px solid #fff;
+        margin-bottom: 20px;
+    }
+    #andrey{
+        border: 5px solid #fff;
+        margin-bottom: 20px;
+    }
+    #ravi{
+        border: 5px solid #fff;
+        margin-bottom: 20px;
+    }
+    #vivi{
+        border: 5px solid #fff;
+        margin-bottom: 20px;
+    }
+    #katrina{
+        border: 5px solid #fff;
+        margin-bottom: 20px;
+    }
+    #stanley{
+        border: 5px solid #fff;
+        margin-bottom: 20px;
+    }
+    #chico{
+        border: 5px solid #fff;
+        margin-bottom: 20px;
+    }
+    #amanda{
+        border: 5px solid #fff;
+        margin-bottom: 20px;
+    }
+    #aviao{
+        border: 5px solid #fff;
+        margin-bottom: 20px;
+    }
+    #faca{
+        border: 5px solid #fff;
+        margin-bottom: 20px;
+    }
+    #boxe{
+        border: 5px solid #fff;
+        margin-bottom: 20px;
+    }
+   
+
+    .nomefoto{
+        text-align: center;
+        margin: 20px 20px;
+    }
+    #home{
+        
+        margin-bottom: 40px;
+        
+       
+        
+      
+    }
+
+    .chamada{
+        color: #fff;
+    }
+
+    .contato{
+        padding-top: 25%;
+    }
+
+  @media screen and (max-width: 1280px ){
+    main,.secao, .fotos, .gatos, .pandemia, .retrato, .fine-art{
+      display: block;
+      justify-content: center;
+      margin-bottom: 2px;
+      margin-top: 5px;
+      
+    }
+
+      .imagem-grande{
+        width:15%;
+        height: 20%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-size: contain;
+       
+       
+      }
+
+      #home{
+        width:290px;
+      margin-left:  210px;
+       background-size: cover;
+       height: 200;
+       margin-top: 50px;
+
+      }
+
+      .head{
+        margin-bottom: 30px;
+        padding: -2px -2px;
+      }
+
+      h1{
+        margin-bottom: 2px;
+      }
+
+      main{
+        margin: 2px 3px;
+      }
+
+    }
+
+  @media screen and (max-width: 600px ){
+    main, .head, .secao, .fotos, .gatos, .pandemia, .retrato, .fine-art{
+      display: block;
+      justify-content: center;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      
+    }
+
+      .imagem-grande{
+        width:900px auto;
+        height: 380px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-size: contain;
+        
+       
+       
+      }
+
+      #home{
+        width:280px;
+      margin-left:  210px;
+       background-size: cover;
+       height: 200;
+       margin-top: 50px;
+       margin-left: 240px;
+      
+
+      }
+
+      .head{
+        margin-bottom: 5px;
+        padding: -2px -2px;
+        display: block;
+      }
+
+      h1{
+        margin-bottom: 50px;
+      }
+
+      main{
+        margin: 2px 3px;
+        display: block;
+      }
+          
+      li{
+        display: block;
+      }b
+
+      .secao{
+        margin-bottom: 10px;
+        
+      }
+
+      
+     
+  }
+  
+  @media (max-width:320px) {
+    .head , main, .secao, .fotos, .gatos, .pandemia, .retrato, .fine-art{
+        display: block;
+        padding-bottom: 100px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+       
+        
+    }
+
+    @media (max-width: 720px){
+        .descricao,.fotos,main,.menu, .head,.sobre{
+            display: block;
+            justify-content: center;
+            border: none;
+            width: 50%;
+            align-items: center;
+            padding: 30px 30px;
+        }
+        
+            
+           
+           
+          }
+    }
+
+
+    
+
+ 
+
+   
+     
+  
